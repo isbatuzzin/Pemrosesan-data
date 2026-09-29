@@ -1,13 +1,5 @@
 # Modul Praktikum Analytics Engineering: SQL & dbt
 
-**Pertemuan:** 6  
-**Durasi:** 120 menit inti + latihan mandiri  
-**Tools:** SQL, DuckDB, dbt Core + dbt-duckdb  
-**Dataset:** Sales Analytics Laboratory  
-**Pendekatan:** konsep → praktik SQL → dimensional modeling → dbt → incremental → testing → documentation → lineage → mini project
-
-> **Catatan penting tentang validasi:** SQL inti pada modul ini telah diuji secara nyata menggunakan SQLite pada dataset yang disediakan. Lingkungan penyusunan modul tidak memiliki `dbt` dan DuckDB serta tidak dapat mengunduh paket dari internet, sehingga perintah `dbt build`, `dbt test`, dan `dbt docs generate` **tidak diklaim telah dieksekusi di lingkungan penyusunan modul**. Struktur project, Jinja, SQL model, source, ref, tests, dan konfigurasi dibuat untuk dbt + DuckDB dan harus diverifikasi dengan menjalankan langkah instalasi/runtime pada mesin peserta.
-
 ---
 
 ## 1. Tujuan Praktikum
